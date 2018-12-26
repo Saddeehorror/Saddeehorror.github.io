@@ -1,0 +1,60 @@
+/*-----------------------TABLA TELEFONOS CORREO---------------------------------------------*/
+.formato-tabla{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.formato-td-th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    color: #212121;
+}
+
+.formato-th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+/*------------------------------------TABLA SASISOPA-----------------------------------------------------*/
+.table_sasisopa{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: -2em;
+    box-shadow: 2.5px 2.5px 5px grey;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: #212121;
+    font-family: "Roboto-Regular";
+
+}
+.table_sasisopa th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.table_sasisopa .tr:nth-child(even){background-color: #fff;}
+
+.table_sasisopa .td{
+    padding: .5em;
+    cursor: pointer;
+    width: 100%;
+}
+.table_sasisopa td{
+    padding: .5em;
+    cursor: pointer;
+}
+.table_sasisopa td span{
+    padding-left: .5em;
+}
+.td_click{
+    background: #BBDEFB;
+}
